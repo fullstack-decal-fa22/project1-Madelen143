@@ -1,0 +1,129 @@
+
+body{
+    background-color: rgb(243, 233, 220);
+}
+p {
+    font-size: 15pt;
+}
+
+.top-bar, .bottom-bar {
+    border: .5rem solid;
+    padding: 20px;
+    background-color: rgb(70, 99, 99);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.first-row, .second-row, .third-row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}   
+
+.intro {
+    display: flex;
+    align-content: center;
+    margin-right: 10px;
+    border: .5rem solid;
+    padding: 10px; 
+    width: 60%;  
+}
+
+.intro p {
+    font-size: 25pt;
+}
+
+/* //!this is setting height for the div and cropping */
+#pic {
+    width: 220px;
+    height: 220px;
+    overflow: clip;
+}
+/* //!this is setting height for image */
+#pic img {
+    width: 270px;
+    height: auto;
+}
+
+.about-me {
+    border: .5rem solid;
+    padding: 10px;   
+    width: 40%;
+}
+
+.proj-exp-col  {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.proj-exp-text {
+    border: .5rem solid;
+    padding: 10px;
+    margin-bottom: 10px;
+} 
+
+.proj-exp-color-block {
+    border: .5rem solid;
+    padding: 40px;
+    background-color:  rgb(70, 107, 107);
+    height: 100%;
+} 
+
+.listed-proj {
+    display: flex;
+    width: 100%;
+}
+
+.proj1 {
+    background-color:  rgb(94, 134, 134);
+    padding: 10px;
+    border-top: .5rem solid;
+    border-bottom: .5rem solid;
+    border-right: .25rem solid;
+    border-left: .5rem solid;
+    width: 100%;
+}
+
+.proj2 {
+    background-color:  rgb(126, 175, 175);
+    padding: 10px;
+    border-top: .5rem solid;
+    border-bottom: .5rem solid;
+    border-right: .25rem solid;
+    border-left: .25rem solid;
+    width: 100%;
+}
+
+.proj3 {
+    background-color:  rgb(160, 214, 214);
+    padding: 10px;
+    border-top: .5rem solid;
+    border-bottom: .5rem solid;
+    border-right: .5rem solid;
+    border-left: .25rem solid;
+    width: 100%;
+}
+
+.personal-goals {
+    padding: 10px;
+    border: .5rem solid;
+    width: 80%;
+    margin-right: 10px;
+}
+
+.contact {
+    padding: 10px;
+    border: .5rem solid;
+    width: 20%;
+}
+
+#cont-links p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
